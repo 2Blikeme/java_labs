@@ -1,0 +1,15 @@
+INFO  2023-03-03 17:52:24  Main:158 - Program starts with parameters: []
+INFO  2023-03-03 17:52:24  Main:21 - ConsoleUI method start
+INFO  2023-03-03 17:52:24  Main:24 - User task input begin
+INFO  2023-03-03 17:52:26  Main:29 - User task input: 3
+INFO  2023-03-03 17:52:26  Main:30 - User data mode input begin
+INFO  2023-03-03 17:52:27  Main:35 - User data mode input: 1
+INFO  2023-03-03 17:52:27  Main:38 - User selected file
+INFO  2023-03-03 17:52:29  Main:42 - Users filename: data.txt
+INFO  2023-03-03 17:52:29  Main:103 - User selected function
+INFO  2023-03-03 17:52:29  Main:104 - Start reading parameters
+INFO  2023-03-03 17:52:29  Main:109 - Selected parameter a: 10.12
+INFO  2023-03-03 17:52:29  Main:114 - Selected parameter b: 13.33
+INFO  2023-03-03 17:52:29  Main:119 - Selected parameter n: 0.24
+INFO  2023-03-03 17:52:29  Main:121 - Start function calculator
+INFO  2023-03-03 17:52:29  Main:160 - Program ended
