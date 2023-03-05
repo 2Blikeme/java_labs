@@ -2,26 +2,21 @@ package ru.bstu.it191.chernih.lab4.regex;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.util.Objects;
 import java.util.Scanner;
 
 public class Main {
 
-    private static final String LINK = "";
-
-    private static String readData(Scanner scanner) {
-        var builder = new StringBuilder();
-        while (scanner.hasNextLine()) {
-            builder.append(scanner.nextLine());
-        }
-        return builder.toString();
-    }
+    private static final String FILENAME = "htmltags.txt";
 
     private static void consoleUI() {
         try {
-            var fileScanner = new Scanner(new FileReader(LINK));
+            var fileScanner = new Scanner(new FileReader(FILENAME));
+            var htmlParser = new HTMLParser();
             while (fileScanner.hasNextLine()) {
-
+                var stringToWork = fileScanner.nextLine();
+                if (!stringToWork.isEmpty()) {
+                    System.out.println(htmlParser.parse(stringToWork));
+                }
             }
         } catch (RuntimeException | FileNotFoundException e) {
             System.out.println("Corrupted data");
@@ -29,7 +24,6 @@ public class Main {
     }
 
     public static void main(String[] args) {
-
+        consoleUI();
     }
-
 }

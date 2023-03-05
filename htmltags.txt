@@ -1,0 +1,11 @@
+[font="Arial"]текст[/font]
+
+[size="14px"]текст[/size]
+
+[color="#FF0000"]текст[/color]
+
+[url="http://test.ru"]ссылка[/url]
+
+[img="http://test.ru/img.jpg"]
+
+[font="Arial"][size="14px"]часть[/size] текста [font="Times New Roman"] другим [/font] шрифтом[/font]

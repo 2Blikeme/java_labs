@@ -1,9 +1,10 @@
 package ru.bstu.it191.chernih.lab3.entity;
 
+import lombok.ToString;
+
 import java.util.Scanner;
 
 public class ElectronicDevice extends Device {
-
     protected double powerConsumption;
 
     @Override
@@ -12,6 +13,7 @@ public class ElectronicDevice extends Device {
         this.firm = scanner.nextLine();
         System.out.println("Power Consumption: ");
         this.powerConsumption = scanner.nextDouble();
+        scanner.nextLine();
         System.out.println("Cost: ");
         this.cost = scanner.nextLine();
     }

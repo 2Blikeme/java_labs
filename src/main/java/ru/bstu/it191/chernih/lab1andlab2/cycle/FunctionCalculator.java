@@ -31,7 +31,6 @@ public class FunctionCalculator {
                                                       double a, double b, double n) {
         for (double x = a; x <= b; x += n) {
             System.out.printf("F(%s) = %s%n", x, func.apply(x));
-            x += n;
         }
     }
 }

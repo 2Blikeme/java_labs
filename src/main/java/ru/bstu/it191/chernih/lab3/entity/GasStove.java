@@ -1,7 +1,10 @@
 package ru.bstu.it191.chernih.lab3.entity;
 
+import lombok.ToString;
+
 import java.util.Scanner;
 
+@ToString
 public class GasStove extends Device {
 
     @Override

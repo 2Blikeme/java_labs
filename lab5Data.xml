@@ -71,19 +71,9 @@
         <ownerSurname>Putin</ownerSurname>
     </Vehicle>
     <Vehicle>
-        <id>9</id>
-        <brand>Porsche</brand>
-        <model>911</model>
-        <color>#f9f9f9</color>
-        <governmentNumber>1231</governmentNumber>
-        <ownerFirstName>Daniel</ownerFirstName>
-        <ownerSecondName>Marusev</ownerSecondName>
-        <ownerSurname>Dmitrievich</ownerSurname>
-    </Vehicle>
-    <Vehicle>
         <id>10</id>
-        <brand>Chevrolet</brand>
-        <model>Cruze 2014</model>
+        <brand>33333</brand>
+        <model>321312312</model>
         <color>#f3f3f3</color>
         <governmentNumber>6666</governmentNumber>
         <ownerFirstName>Shamil</ownerFirstName>
@@ -91,13 +81,13 @@
         <ownerSurname>Tretovich</ownerSurname>
     </Vehicle>
     <Vehicle>
-        <id>1</id>
-        <brand>28</brand>
-        <model>3</model>
-        <color>2</color>
-        <governmentNumber>5</governmentNumber>
-        <ownerFirstName>6</ownerFirstName>
-        <brand>7</brand>
+        <id>231</id>
+        <brand>asdasd</brand>
+        <model>asd</model>
+        <color>asd</color>
+        <governmentNumber>asd</governmentNumber>
+        <ownerFirstName>asd</ownerFirstName>
+        <ownerSecondName>asd</ownerSecondName>
         <ownerSurname/>
     </Vehicle>
 </VehicleList>

@@ -98,9 +98,9 @@ public class PostgresJDBC implements DataProvider {
         var insertTableSQL = "insert into " +
                 "vehicles.public.vehicle(id, brand, model, color, " +
                 "governmentnumber, ownerfirstname, ownersecondname, ownersurname) VALUES (" +
-                "" + vehicle.getId() + ", " + vehicle.getBrand() + ", " + vehicle.getModel() +
-                ", " + vehicle.getColor() + ", " + vehicle.getGovernmentNumber() + ", " + vehicle.getOwnerFirstName() +
-                ", " + vehicle.getOwnerSecondName() + ", " + vehicle.getOwnerSurname() + ")";
+                "" + vehicle.getId() + ", '" + vehicle.getBrand() + "', '" + vehicle.getModel() +
+                "', '" + vehicle.getColor() + "', '" + vehicle.getGovernmentNumber() + "', '" + vehicle.getOwnerFirstName() +
+                "', '" + vehicle.getOwnerSecondName() + "', '" + vehicle.getOwnerSurname() + "')";
 
         Statement statement;
         try(Connection dbConnection = getDBConnection()) {
@@ -110,6 +110,7 @@ public class PostgresJDBC implements DataProvider {
             // выполнить SQL запрос
             statement.execute(insertTableSQL);
         } catch (SQLException e) {
+            e.printStackTrace();
             System.out.println(e.getMessage());
         }
     }

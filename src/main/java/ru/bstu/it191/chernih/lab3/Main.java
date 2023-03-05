@@ -51,6 +51,7 @@ public class Main {
                     }
                 }
                 if (device != null) {
+                    device.init(scanner);
                     devices.add(device);
                 }
             }

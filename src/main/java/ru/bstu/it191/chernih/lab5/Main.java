@@ -71,7 +71,7 @@ public class Main {
                     System.out.println("Owner First Name: ");
                     var firstName = scanner.nextLine();
 
-                    System.out.println("Owner First Name: ");
+                    System.out.println("Owner Second Name: ");
                     var secondName = scanner.nextLine();
 
                     System.out.println("Owner Surname: ");

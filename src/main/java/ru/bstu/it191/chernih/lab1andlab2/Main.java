@@ -52,22 +52,22 @@ public class Main {
                     logger.info("Start point reading");
 
                     System.out.print("Point A: ");
-                    var aX = Double.parseDouble(scanner.nextLine());
-                    var aY = Double.parseDouble(scanner.nextLine());
+                    var aX = scanner.nextDouble();
+                    var aY = scanner.nextDouble();
                     System.out.println("{" + aX + ";" + aY + "}");
 
                     logger.info("A point {" + aX + ";" + aY + "}");
 
                     System.out.print("Point B: ");
-                    var bX = Double.parseDouble(scanner.nextLine());
-                    var bY = Double.parseDouble(scanner.nextLine());
+                    var bX = scanner.nextDouble();
+                    var bY = scanner.nextDouble();
                     System.out.println("{" + bX + ";" + bY + "}");
 
                     logger.info("B point {" + bX + ";" + bY + "}");
 
                     System.out.print("Point C: ");
-                    var cX = Double.parseDouble(scanner.nextLine());
-                    var cY = Double.parseDouble(scanner.nextLine());
+                    var cX = scanner.nextDouble();
+                    var cY = scanner.nextDouble();
                     System.out.println("{" + cX + ";" + cY + "}");
 
                     logger.info("C point {" + cX + ";" + cY + "}");
